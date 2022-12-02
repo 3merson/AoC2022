@@ -9,6 +9,7 @@ lose = 0
 rock =1
 paper =2
 scissors = 3
+score_number = 0
 
 
 with open ('input.txt', 'r') as fle:
@@ -36,9 +37,6 @@ with open ('input.txt', 'r') as fle:
                 my_score.append(lose + paper)
             else:
                 my_score.append(win + rock)
-        
-print(my_score)
-score_number = 0
 
 for score in my_score:
     score_number += score 
@@ -53,5 +51,3 @@ print(score_number)
 
 #Opponent is ABC
 #You are XYZ
-
-#When creating if statments only worry about the winner and summing up my points
