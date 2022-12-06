@@ -256,7 +256,7 @@ def followMoves(input):
                         # column_3.append(values_removed)    
                     # getColumn(column)[:-amount]
                     # getColumn(destination).append(values_removed)
-    print(column_1[len(column_1)-1],column_2[len(column_2)-1],column_3[len(column_3)-1],column_4[len(column_4)-1],column_5[len(column_5)-1],column_6[len(column_6)-1],column_7[len(column_7)-1],column_8[len(column_8)-1],column_9[len(column_9)-1])
+    print(column_1[-1],column_2[-1],column_3[-1],column_4[-1],column_5[-1],column_6[-1],column_7[-1],column_8[-1],column_9[-1])
 
 
 
